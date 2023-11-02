@@ -8,7 +8,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       // Init
       console.log("PROCEED");
 
-    // Ищем кастомера и делаем кредитики = кредитики - кредитики + кредитики*k
+    // Ищем кастомера и ресетим кредиты
 
     return res.status(200).json({ received: true });
   } else {
