@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 const stripe = require("stripe")(
-  "sk_test_51O3CkiFppZAhutos91DyGwtaEQbMfcakVF2d1IQYdNVJS9xB5UkGf2t9mZbWNPugJnCzf21bakmz92BZrjcDHk1T00HaWSV0bY"
+  "sk_test_51O3CkiFppZAhutos91DyGwtaEQbMfcakVF2d1IQYdNVJS9xB5UkGf2t9mZbWNPugJnCzf21bakmz92BZrjcDHk1T00HaWSV0bY:"
 );
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
